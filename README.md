@@ -12,18 +12,9 @@ Python-based analysis of galaxy-cluster observations from the Sloan Digital Sky 
 - Visualise the data and discuss the implications and limitations of the estimates.
 
 ## Data
-The SDSS data are not included in this repository. Obtain the data from the [SDSS website](https://www.sdss.org/) or the relevant SkyServer query, and place the downloaded file in `data/`. Do not commit large files or data that you are not permitted to redistribute.
+The SDSS data are not included in this repository. Obtain the data from the [SDSS website](https://www.sdss.org/) or the relevant SkyServer query, and place the downloaded file in `dataset/`. Do not commit large files or data that you are not permitted to redistribute.
 
 Record the query, data-release version, retrieval date, selected sky position, redshift limits, and column definitions in your notebook or report so the analysis can be reproduced.
-
-## Repository layout
-```text
-data/       # Local input data; see data/README.md
-notebooks/  # Analysis notebook(s)
-figures/    # Exported plots
-results/    # Summary results and tables
-requirements.txt
-```
 
 ## Setup
 Python 3.10 or later is recommended. Create and activate a virtual environment, then install dependencies:
