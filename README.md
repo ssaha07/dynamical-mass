@@ -16,16 +16,6 @@ The SDSS data are not included in this repository. Obtain the data from the [SDS
 
 Record the query, data-release version, retrieval date, selected sky position, redshift limits, and column definitions in your notebook or report so the analysis can be reproduced.
 
-## Setup
-Python 3.10 or later is recommended. Create and activate a virtual environment, then install dependencies:
-
-```bash
-python -m venv .venv
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-# macOS/Linux: source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
 Open the project notebook with Jupyter Lab or Jupyter Notebook. Update any file paths to match the local SDSS data file.
 
 ## Reported results
